@@ -9,6 +9,7 @@ public class MyController {
     @GetMapping("/blog")
     public String blogMain(Model model){
     return "blog-main";
+
     }
 
 }
